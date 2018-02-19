@@ -1,13 +1,13 @@
 {
-  "name": "Destacar -Envolver para Regalo- Shopify Admin",
+  "name": "Instagram Contest Helper",
   "version": "0.0.1",
   "author": "Tomás Girardi - https://github.com/tgirardi",
   "manifest_version": 2,
-  "description": "En tiendas de Shopify que tienen la opción -Envolver para Regalo-, imprime una alerta bien visible en caso de que la orden deba envolverse para regalo, según lo indicado por el cliente",
+  "description": "",
   "content_scripts" : [
     {
-      "matches": ["*://*.myshopify.com/admin/orders/*"],
-      "js": ["envolver-para-regalo.js"]
+      "matches": ["*://*.instagram.com/p/*"],
+      "js": ["igcontesthelper.js"]
     }
   ]
 }
